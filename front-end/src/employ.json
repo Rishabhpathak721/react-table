@@ -1,0 +1,391 @@
+[
+    {
+      "id": "1",
+      "firstname": "Smauel",
+      "lastname": "Matthew",
+      "avatarUrl": "https://prod_membership_avatars.s3.amazonaws.com/avatar-file-d84b533b09f34ab6908345833dc21773.jpg",
+      "email": "test@tes.com",
+      "phone": "9876543210",
+      "hasPremium": true,
+      "bids": [
+        {
+          "id": "2",
+          "carTitle": "bentle",
+          "amount": 10000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "3",
+          "carTitle": "Lamborgini",
+          "amount": 20000,
+          "created": "150980770071"
+        },
+        {
+          "id": "4",
+          "carTitle": "Ferrari",
+          "amount": 30000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "5",
+          "carTitle": "BMW",
+          "amount": 40000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "1510053106948",
+          "amount": 2000,
+          "carTitle": "Ford",
+          "created": "1510053106948"
+        },
+        {
+          "id": "1510053231441",
+          "amount": 1000,
+          "carTitle": "porsche",
+          "created": "1510053231441"
+        },
+        {
+          "id": "1510053232256",
+          "amount": 3000,
+          "carTitle": "BMW",
+          "created": "1510053232256"
+        }
+      ],
+      "showNotification": false,
+      "redirect": false,
+      "isValid": false,
+      "isError": false,
+      "validation": true
+    },
+    {
+      "id": "2",
+      "firstname": "Sam",
+      "lastname": "Jones",
+      "avatarUrl": "https://prod_membership_avatars.s3.amazonaws.com/avatar-file-d84b533b09f34ab6908345833dc21773.jpg",
+      "email": "sam.jones@abcd.com",
+      "phone": "9876543210",
+      "hasPremium": true,
+      "bids": [
+        {
+          "id": "2",
+          "carTitle": "BMW",
+          "amount": 10000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "3",
+          "carTitle": "bentle",
+          "amount": 20000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "4",
+          "carTitle": "Merc",
+          "amount": 30000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "5",
+          "carTitle": "Rolls",
+          "amount": 40000,
+          "created": "1509807708071"
+        }
+      ],
+      "showNotification": false,
+      "redirect": false
+    },
+    {
+      "id": "3",
+      "firstname": "Trish",
+      "lastname": "Plea",
+      "avatarUrl": "https://images-na.ssl-images-amazon.com/images/I/81J1k7eXIGL._CR0,169,1255,1255_UX128.jpg",
+      "email": "trish.plea@gmail.com",
+      "phone": "9876543210",
+      "hasPremium": false,
+      "bids": [
+        {
+          "id": "2",
+          "carTitle": "bentle",
+          "amount": 10000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "3",
+          "carTitle": "BMW",
+          "amount": 20000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "4",
+          "carTitle": "Porsche",
+          "amount": 30000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "5",
+          "carTitle": "Merc",
+          "amount": 40000,
+          "created": "1509807708071"
+        }
+      ],
+      "showNotification": false,
+      "redirect": false,
+      "isValid": false,
+      "isError": false
+    },
+    {
+      "id": "77",
+      "firstname": "Thore",
+      "lastname": "Loki",
+      "avatarUrl": "https://prod_membership_avatars.s3.amazonaws.com/avatar-file-d84b533b09f34ab6908345833dc21773.jpg",
+      "email": "loki.thore@gmail.com",
+      "phone": "9876543210",
+      "hasPremium": true,
+      "bids": [
+        {
+          "id": "2",
+          "carTitle": "Porsche",
+          "amount": 10000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "3",
+          "carTitle": "Merc",
+          "amount": 20000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "4",
+          "carTitle": "Volvo",
+          "amount": 30000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "5",
+          "carTitle": "bentle",
+          "amount": 40000,
+          "created": "1509807708071"
+        }
+      ],
+      "showNotification": false,
+      "redirect": false,
+      "isValid": false,
+      "isError": false
+    },
+    {
+      "id": "4",
+      "firstname": "Smauel",
+      "lastname": "Matthew",
+      "avatarUrl": "https://prod_membership_avatars.s3.amazonaws.com/avatar-file-d84b533b09f34ab6908345833dc21773.jpg",
+      "email": "test@tes.com",
+      "phone": "9876543210",
+      "hasPremium": true,
+      "bids": [
+        {
+          "id": "2",
+          "carTitle": "bentle",
+          "amount": 10000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "3",
+          "carTitle": "Volvo",
+          "amount": 20000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "4",
+          "carTitle": "Merc",
+          "amount": 30000,
+          "created": "1509807708071"
+        },
+        {
+          "id": "5",
+          "carTitle": "Porsche",
+          "amount": 40000,
+          "created": "1509807708071"
+        }
+      ],
+      "showNotification": false,
+      "redirect": false,
+      "isValid": false,
+      "isError": false
+    },
+    {
+      "firstname": "test",
+      "lastname": "asda",
+      "email": "test@tes.com",
+      "phone": "12312312",
+      "avtar": "asdass",
+      "isPremium": true,
+      "bids": [
+        {
+          "id": 1,
+          "amount": 10000,
+          "carTitle": "Lamborgini",
+          "created": "1509844521770"
+        },
+        {
+          "id": 2,
+          "amount": 20000,
+          "carTitle": "BMW",
+          "created": "1509844536148"
+        }
+      ],
+      "id": "14",
+      "avatarUrl": "https://image.flaticon.com/icons/png/128/168/168895.png",
+      "hasPremium": false
+    },
+    {
+      "firstname": "testagain",
+      "lastname": "asda",
+      "email": "asd@asd.com",
+      "phone": "123123",
+      "avtar": "asdass",
+      "isPremium": true,
+      "bids": [
+        {
+          "id": 1,
+          "amount": 10000,
+          "carTitle": "lamb",
+          "created": "1509844521770"
+        },
+        {
+          "id": 2,
+          "amount": 20000,
+          "carTitle": "porsche",
+          "created": "1509844536148"
+        },
+        {
+          "id": "1510161719825",
+          "amount": 30000,
+          "carTitle": "bmw",
+          "created": "1510161719825"
+        },
+        {
+          "id": "1510161720137",
+          "amount": 40000,
+          "carTitle": "volvo",
+          "created": "1510161720137"
+        }
+      ],
+      "id": "17",
+      "avatarUrl": "https://image.flaticon.com/icons/png/128/168/168895.png",
+      "hasPremium": false
+    },
+    {
+      "id": "OYBk1Zc",
+      "firstname": "test",
+      "lastname": "kjh",
+      "email": "lkhlj@sds.com",
+      "phone": "13123123",
+      "avatarUrl": "https://image.flaticon.com/icons/png/128/168/168895.png",
+      "hasPremium": true,
+      "bids": [
+        {
+          "id": 1,
+          "amount": 20000,
+          "carTitle": "ferrari",
+          "created": "1509961718375"
+        }
+      ]
+    },
+    {
+      "id": "Rk1EPRZ",
+      "firstname": "sd",
+      "lastname": "kjh",
+      "email": "lkhlj@sds.com",
+      "phone": "13123123",
+      "avatarUrl": "http://wfarm2.dataknet.com/static/resources/icons/set3/c9f1cdf432ee.png",
+      "hasPremium": true,
+      "bids": [
+        {
+          "id": 1,
+          "amount": 15000,
+          "carTitle": "toyota",
+          "created": "1509961718375"
+        }
+      ]
+    },
+    {
+      "id": "Vo_oA3Y",
+      "firstname": "sd",
+      "lastname": "kjh",
+      "email": "lkhlj@sds.com",
+      "phone": "13123123",
+      "avatarUrl": "http://wfarm2.dataknet.com/static/resources/icons/set3/c9f1cdf432ee.png",
+      "hasPremium": true,
+      "bids": [
+        {
+          "id": 1,
+          "amount": 20000,
+          "carTitle": "223",
+          "created": "1509961718375"
+        },
+        {
+          "id": "1510161637127",
+          "amount": 10000,
+          "carTitle": "merc",
+          "created": "1510161637127"
+        },
+        {
+          "id": "1510161637314",
+          "amount": 20000,
+          "carTitle": "rolls",
+          "created": "1510161637314"
+        },
+        {
+          "id": "1510161663126",
+          "amount": 300000,
+          "carTitle": "lamb",
+          "created": "1510161663126"
+        }
+      ]
+    },
+    {
+      "id": "4LgH6Iz",
+      "firstname": "xdsa",
+      "lastname": "asd",
+      "email": "test@test.com",
+      "phone": "1234",
+      "avatarUrl": "https://images-na.ssl-images-amazon.com/images/I/81J1k7eXIGL._CR0,169,1255,1255_UX128.jpg",
+      "hasPremium": false,
+      "bids": [
+        {
+          "id": 1,
+          "amount": 35000,
+          "carTitle": "volve",
+          "created": "1510048491618"
+        }
+      ],
+      "showNotification": false,
+      "redirect": false
+    },
+    {
+      "id": "FFlB1wn",
+      "firstname": "asd",
+      "lastname": "asd",
+      "email": "asd@asd.com",
+      "phone": "123123",
+      "avatarUrl": "https://prod_membership_avatars.s3.amazonaws.com/avatar-file-d84b533b09f34ab6908345833dc21773.jpg",
+      "hasPremium": true,
+      "bids": []
+    },
+    {
+      "id": "As91jcB",
+      "firstname": "test",
+      "lastname": "again",
+      "email": "test@tes.com",
+      "phone": "987654321",
+      "avatarUrl": "https://images-na.ssl-images-amazon.com/images/I/81J1k7eXIGL._CR0,169,1255,1255_UX128.jpg",
+      "hasPremium": true,
+      "bids": [
+        {
+          "id": "1510161873862",
+          "amount": 30000,
+          "carTitle": "Ford",
+          "created": "1510161873862"
+        }
+      ]
+    }
+  ]
