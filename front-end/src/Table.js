@@ -19,13 +19,6 @@ class TableBox extends Component {
           
         }
 
-        
-        
-
-        // this.users = this.users.bind(this);
-        // this.generateHeader = this.generateHeader.bind(this);
-        // this.generateTableData = this.generateTableData.bind(this);
-      }
       
     //   Async function get request
 
@@ -64,8 +57,6 @@ class TableBox extends Component {
           return (
             <tr key={user.id}>
               <td className="td"><img className="avtar"  src={user.avatarUrl}/><div><span className="username">{user.firstname}</span> <span>{user.lastname}</span> </div></td>
-              {/* <td>{user.lastname}</td> */}
-              {/* <td>{user.avatarUrl}</td> */}
               <td className="td-1 text-center">{user.email}</td>
               <td className="td-1 text-center">{user.phone}</td>
               <td className="td-1 text-center">{premium}</td>
@@ -84,28 +75,7 @@ class TableBox extends Component {
         })
       }
     
-    // generateHeader(){
-    //     let res=[];
-    //   for(var i =0; i < columns.length; i++){
-    //       res.push(<th key={columns[i]}>{columns[i]}</th>)
-    //   }
-    //   return res;
-    // }
-    // generateTableData(){
-    //     let res=[];
-    //     let tableData = this.users.data;
-    //     for(var i =0; i < tableData.length; i++){
-    //         res.push(
-    //          <tr >
-    //         <td key={tableData[i].firstname}>{tableData[i].id}{tableData[i].lastName}</td>
-    //         <td key={tableData[i].email}>{tableData[i].email}</td>
-    //         <td key={tableData[i].phone}>{tableData[i].phone}</td>
-    //         <td key= {tableData[i].hasPremium}>{tableData[i].hasPremium}</td>
-    //         </tr>
-    //         )
-    //     }
-    //     return res;
-    // }
+    
 
     render(){
         const { users, isLoading, isError } = this.state
@@ -119,20 +89,6 @@ class TableBox extends Component {
     }
     return users.length > 0
     ? (
-    //     <MDBTable bordered hover>
-    //   <MDBTableHead color="primary-color">
-    //     <tr>
-    //         <th>
-    //     {this.renderTableHeader()}
-    //     </th>
-    //     </tr>
-    //   </MDBTableHead>
-    //   <MDBTableBody>
-    //     <tr>
-    //     {this.renderTableRows()}
-    //     </tr>
-    //   </MDBTableBody>
-    // </MDBTable>
                
 
       <Table striped bordered hover variant="dark">
@@ -144,14 +100,6 @@ class TableBox extends Component {
         <tbody>
           {this.renderTableRows()}
         </tbody>
-        <Pagination size='2'>
-  <Pagination.First />
-  <Pagination.Prev />
-  <Pagination.Item>{1}</Pagination.Item>
-  <Pagination.Ellipsis />
-  <Pagination.Next />
-  <Pagination.Last />
-</Pagination>
       </Table>
     ) : (
       <div>
